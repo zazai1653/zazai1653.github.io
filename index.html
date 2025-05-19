@@ -1,118 +1,32 @@
+<!--
+Name: Rustam Zazai
+File: lab1.html
+Date: 19 May 2025
+This is the Lab 1 page for Web Development - Fundamentals
+(INFT1206)
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise 10</title>
+    <title>Assignment 1</title>
+    <meta name="viewport" content="width=device-width">
     <meta name="author" content="Rustam Zazai">
-    <meta name="keywords" content="Form, input, text, email, select, textarea">
-    <meta name="description" content="Lab using input system with required fields">
-    <link rel="icon" href="assets/img/favicon.ico">
-    <style>
-        input:focus {border: 1pt solid skyblue;}
-        .box {margin: 1.5em;}
-        fieldset {border: 1pt solid black;}
-        form {width:500px; position: relative; left: 67%;}
-        label {display: block; margin: 0 0 0 5px;}
-        select {background-color: lightgrey;}
-        optgroup {background-color: grey; color: white;}
-        table {border-collapse: collapse;}
-        td, th {border: 3px solid black;}
-    </style>
+    <meta name="keywords" content="Beginner HTML, HTML structure">
+    <meta name="description" content="Intro to HTML lab">
+    <link rel="icon" href="assets/img/icon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
 </head>
 <body>
-<header><h1>Lab 10 using a form system</h1></header>
-<form method="post" action="http://comp1234.gblearn.com/fall2024/lecture/wk10/WhereToSendThisInformation.php">
-    <fieldset>
-        <legend>Comment Form</legend>
-        <div class="box">
-        <label for="fnamee">Kimi No Nawa<span style="color:red;">*</span></label>
-            <input type="text" id="fnamee" name="fname" placeholder="accesskey=J, tabindex=1" accesskey="J" tabindex="1" size="23" maxlength="10" required>
-            <input type="text" name="lname" placeholder="lastname" tabindex="2" size="6" maxlength="5" required>
-        </div>
-        <div class="box">
-            <label for="emaill">Email: <span style="color:red;">*</span></label>
-            <input type="email" id="emaill" name="email" tabindex="3" size="10" maxlength="10" required>
-        </div>
-        <div class="box">
-            <label for="TicketSelection">Subject of comment:</label>
-            <select id="TicketSelection" name="ticketSelection">
-                <optgroup label="first 2">
-                    <option value="problem" selected>Problem</option>
-                    <option value="comment">Comment</option>
-                </optgroup>
-                <optgroup label="hohoho santa claus is coming to town"><option value="generalQuestion">General Questions</option></optgroup>
-            </select>
-        </div>
-        <div class="box">
-            <label for="comentario"></label>
-            <textarea name="comment" id="comentario" cols="30" rows="10" placeholder="Write a comment immediately!"></textarea>
-        </div>
-        <div class="box">
-            <label for="colorBox"></label>
-            <input type="color" id="colorBox" name="colorBotox">
-            <input type="submit" style="width:25px; height:25px; background-color: lightgrey;" onclick="colorChange()">
-            <input type="text" name="colorText" id="cbox" readonly="" placeholder="color value">
-        </div>
-        <div class="box">
-            <label for="colorList"></label>
-            <select name="colorList" id="colorList">
-                <optgroup label="red opt group label">
-                <option value="rgb(255,0,0)">red</option>
-                </optgroup>
-                <optgroup label="green opt group">
-                <option value="green">green</option>
-                </optgroup>
-                <optgroup label="blue opt">
-                <option value="#0000FF">blue</option>
-                </optgroup>
-            </select>
-            <input type="submit" value="color background" onclick="colorChange2()">
-        </div>
-        <fieldset>
-            <button type="submit"><img src="assets/img/submit.jpg" alt="submit" title="send da enfo" width="150" height="150"></button>
-            <input type="reset">
-        </fieldset>
-    </fieldset>
-</form>
-<script>
-    function colorChange() {
-        let color = document.getElementById("colorBox").value;
-        document.body.style.backgroundColor=color;
-        document.getElementById('cbox').value = color;
-    }
-    function colorChange2(){
-        let color = document.getElementById("colorList").value;
-        document.body.style.backgroundColor=color;
-        document.getElementById('cbox').value = color;
-    }
-</script>
-<table>
-    <caption>Students</caption>
-    <thead>
-    <tr>
-        <td>Name</td>
-        <td>Age</td>
-        <td>GPA</td>
-        <td colspan="2">Eye sight</td>
-    </tr>
-    </thead>
-    <tfoot>
-    <tr>
-        <th>Albert Wesker</th>
-        <th>28</th>
-        <th>4.0</th>
-        <th>6</th>
-    </tr>
-    </tfoot>
-    <tbody>
-    <tr>
-        <th>Rustam Zazai</th>
-        <th>23</th>
-        <th>4.0</th>
-        <th>7</th>
-    </tr>
-    </tbody>
-</table>
+<header>
+    
+</header>
+<main>
+
+</main>
+<footer>
+
+</footer>
 <script src="https://my.gblearn.com/js/loadscript.js"></script>
 </body>
 </html>
