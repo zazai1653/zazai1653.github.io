@@ -1,0 +1,52 @@
+Assignment 1 – HTML Overview
+
+Overview, References and Resources
+
+Before attempting this assignment, students should have read and worked through the following section of the MDN Web Docs:
+•	Complete beginners start here!
+o	Students should pay particular attention to the “Publishing via GitHub” https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website#publishing_via_github and the “GitHub Setup” module in DC Connect 
+•	Assigned class readings that will facilitate with the tutorials for this assignment can be found under the “HTML – Structuring the web” section in the Introduction to HTML module 
+Submission Requirements
+
+Students will do the following as part of the submission of their completed assignment will provide the clickable links to each page created/modified and committed/published to GitHub for this assignment in the DC Connect Assignment 1 Dropbox.
+Students are also to ensure that they have added their professor to be “collaborators” on their repositories so they can access and view the commit log for your assignment files.
+NOTE: see the “GitHub Setup” module in DC Connect for setup instructions.
+If the link is submitted late into the assignment drop box a 25% penalty will be applied to the overall assignment.  After 72 hours of the original due date, the drop box will close in DC a mark of zero (0) will be given for the assignment.
+HTML Comments
+
+For each and every *.html file that is created for this course, students are to include <!--HTML Comments --> these will be in the form:
+	<!--
+	Name: Your Name
+	File: filename.html
+	Date: XX September 202X
+	A very brief description of the file.
+	-->
+
+Where students will replace the placeholders with the appropriate information.
+HTML5 Validation
+For all *.html files created/submitted in this course, for full marks, MUST be validated to the HTML5 standard.
+To achieve this, the first four (4) lines of the *.html file(s) have to be:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+Created HTML content should be checked through an HTML5 validator (there are several on the Web).  Your instructor will check each file to ensure compliance.
+GitHub Requirements
+For each and every text type (*.html or *.css) file published as part of the assignment submission, there must be at least five (5) change commits.  NOTE: The first two will always be the same and more than five commits is allowed, if it makes sense to do so.
+1.	An initial commit when students add the unmodified/provided tutorial files from the MDN web docs pages.
+2.	The second commit should be made after <!--HTML Comments--> are added to every file
+3.	A commit when it makes sense to do so.
+4.	A commit when it makes sense to do so.
+5.	A commit when the files are ready to be published onto the remote GitHub repository
+Once the final commit is completed, students are to use GitHub desktop to publish their files for submission by clicking on the Push Origin button. NOTE: files can be pushed at anytime, but it is imperative that the final versions of the files are pushed to ensure that the changes are assessed.
+Specific Requirements
+	Assignment 1 – Part 1 Requirements
+o	Download the tutorial files found at https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
+o	Work through the exercises, ensuring that the GitHub, HTML Comments and submission requirements are met.
+Assignment 2 – Part 2 Requirements
+o	Download the tutorial files found at https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content 
+o	Work through the exercises, ensuring that the GitHub, HTML Comments and submission requirements are met.
+
+
+
