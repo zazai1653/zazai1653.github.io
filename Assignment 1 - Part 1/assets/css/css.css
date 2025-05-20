@@ -2,7 +2,7 @@
 Name: Rustam Zazai
 File: css.css
 Date: 20 May 2025
-This is the CSS for "Assignment 1: Part 1"
+This is the CSS for Assignment 1: Part 1, all coding is at the bottom.
 (INFT1206)
 */
 
@@ -29,4 +29,44 @@ p,ul,ol,dl,address {
 
 p, li, dd, dt, address {
   line-height: 1.5;
+}
+
+/*Justify sender information to right and in italics as shown in example*/
+.sender_column {
+  text-align: right;
+  font-style: italic;
+}
+
+/*Italicize the recipient information*/
+.recipient_column {
+  font-style: italic;
+}
+
+/*Indented dance paragraph class*/
+.indented_info {
+  margin-left:30px;
+}
+
+/*Improve page looks for below code*/
+
+#body{
+  background: aliceblue;
+}
+
+li {
+  list-style-type: square;
+  color: goldenrod;
+  background: linear-gradient(to top right, purple, red)
+}
+
+ol li {
+  list-style-type:upper-roman;
+}
+
+li:hover {
+  padding-left:2px;
+  border-left: 2px solid red;
+  margin-left: 2px;
+  border-right: red 2px solid; 
+  margin-right: 2px;
 }
