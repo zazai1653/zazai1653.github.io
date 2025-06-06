@@ -117,7 +117,7 @@ This is the HTML for Assignment 2 - Part 1
     <img src="firefox_logo-only_RGB.png" title="Firefox's logo"
       alt="Logo for the firefox browser which shows a red fox partially covering a blue sphere.">
 
-    <a src="120px-firefox_logo-only_RGB.png">Link to the small version of the Firefox logo</a>
+    <a href="120px-firefox_logo-only_RGB.png">Link to the small version of the Firefox logo</a>
 
   </header>
 
@@ -142,34 +142,23 @@ This is the HTML for Assignment 2 - Part 1
     <div class="further-info">
 
       <a href="https://www.mozilla.org/en-US/firefox/new/">
-        <picture>
-          <source media="(max-width: 120px)" srcset="120px-firefox_logo-only_RGB.jpg">
-          <img src="firefox_logo-only_RGB.png" title="Firefox logo"
-            alt="Firefox logo that depicts a fox covering a blue sphere">
-        </picture>
+        <img src="firefox_logo-only_RGB.png" srcset="120px-firefox_logo-only_RGB.png 120w, firefox_logo-only_RGB.png 400w"
+          sizes="(max-width: 120px) 120px, 400px" title="Firefox logo" alt="Firefox logo that depicts a fox covering a blue sphere">
       </a>
 
       <a href="https://www.mozilla.org/">
-        <picture>
-          <source media="(max-width: 120px)" srcset="120px-mozilla-dinosaur-head.jpg">
-          <img src="mozilla-dinosaur-head.png" title="Mozilla's website" alt="Logo that shows a red dinosaur head.">
-        </picture>
+        <img src="mozilla-dinosaur-head.png" srcset="120px-mozilla-dinosaur-head.png 120w, mozilla-dinosaur-head.png 400w"
+          sizes="(max-width: 120px) 120px, 400px" title="Mozilla's website" alt="Logo that shows a red dinosaur head.">
       </a>
 
       <a href="https://addons.mozilla.org/">
-        <picture>
-          <source media="(max-width: 120px)" srcset="120px-firefox-addons.jpg">
-          <img src="firefox-addons.jpg" title="Mozilla's addons"
-            alt="Firefox's logo that is portrayed as a puzzle which is incomplete.">
-        </picture>
+        <img src="firefox-addons.jpg" srcset="120px-firefox-addons.jpg 120w, firefox-addons.jpg 400w"
+        sizes="(max-width: 120px) 120px, 400px" title="Mozilla's addons" alt="Firefox's logo that is portrayed as a puzzle which is incomplete.">
       </a>
 
       <a href="https://developer.mozilla.org/en-US/">
-        <picture>
-          <source media="(max-width: 120px)" srcset="120px-mdn.svg">
-          <img src="originals/mdn.svg" title="Mozilla developers english page"
-            alt="A logo which shows the outlines of a dinosaur on blue, crumpled paper.">
-        </picture>
+        <img src="originals/mdn.svg" srcset="120px-originals/mdn.svg 120w, originals/mdn.svg 400w" sizes="(max-width: 120px) 120px, 400px" 
+        title="Mozilla developers english page" alt="A logo which shows the outlines of a dinosaur on blue, crumpled paper.">
       </a>
 
       <div class="clearfix"></div>
