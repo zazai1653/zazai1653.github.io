@@ -1,0 +1,32 @@
+/*
+Name: Rustam Zazai
+File: css.css
+Date: June 19 2025
+This is the CSS for Assignment 3 - Part 2
+(INFT1206)
+*/
+
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+div 
+{
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 550%;
+  font-size: 1.1rem; /*1 rem = 16px*/
+  background-color: gold;
+  color: red;
+  text-shadow: black 5px 5px 4px;
+  border-radius: 3px;
+  border: goldenrod 1px solid;
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0.2) 30%);
+  box-shadow: 5px 5px 10px crimson,
+  inset 5px 5px 10px rgba(255,255,255,0.5),
+  inset -5px -5px 10px rgba(0,0,0,0.5);
+}
