@@ -1,3 +1,11 @@
+/*
+   Name: Rustam Zazai
+   File: main.js
+   Date: August 6 2025
+   This is the javascript for the web accessibility assignment
+   (INFT1206-06)
+   */
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
