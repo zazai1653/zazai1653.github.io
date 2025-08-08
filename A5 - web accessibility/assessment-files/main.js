@@ -19,10 +19,12 @@ function toggleComments(){
     showHideBtn.textContent = 'Hide comments';
     commentWrapper.style.display = 'block';
     showHideBtn.setAttribute('aria-pressed', 'true');
+    showHideBtn.setAttribute('aria-disabled', 'false');
   } else {
     showHideBtn.textContent = 'Show comments';
     commentWrapper.style.display = 'none';
     showHideBtn.setAttribute('aria-pressed', 'false');
+    showHideBtn.setAttribute('aria-disabled', 'true');
   }
 }
 
